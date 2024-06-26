@@ -1,12 +1,129 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    border-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-sizing: border-box;
+  
 }
 
-.navbar{
-    display: flex;
-    
+body{
+    /*background-color: #E5E7EB;*/
 }
 
+.navbar {
+  display: flex;
+
+  border: 2px solid black;
+  justify-content: flex-end;
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-weight: 24px;
+  height: 10vh;
+}
+
+.first-subsection {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-subsection-text {
+  margin: auto;
+}
+
+.image-placeholder {
+  margin: auto;
+  display: block;
+}
+
+.signup-button {
+  background-color: #3882f6;
+  /*border: 1px solid white;*/
+  height: 32px;
+  border-radius: 8px;
+  width: 100px;
+  margin: auto;
+  color: #f9faf8;
+}
+
+.second-subsection {
+  border: 2px solid black;
+}
+
+.subsection-two-header {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.box-collection {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+}
+
+.box-plus-description {
+  width: 110px;
+}
+
+.third-subsection {
+  width: 50%;
+  /*text-align: center;*/
+  margin: 100px auto;
+  
+
+}
+
+.thor {
+  text-align: right;
+  margin: 10px;
+}
+
+.fourth-subsection {
+  /*border: 1px solid black;*/
+  height: 25vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: white;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  width: 80%;
+  margin: auto;
+
+  display: flex;
+
+  border-radius: 5px;
+  justify-content: space-between;
+  height: 72px;
+  font: 36px extra-bold #1f2937;
+}
+
+.call-to-action-button {
+  background-color: #3882f6;
+  border: 1px solid white;
+  height: 32px;
+  border-radius: 8px;
+  width: 100px;
+  margin: auto;
+  color: #f9faf8;
+}
+.call-to-action-text {
+  margin: auto;
+  font-size: 18px;
+  color: #f9faf8;
+}
+
+.footer {
+  text-align: center;
+  margin: 40px;
+  /*background-color: #1f2937;*/
+}

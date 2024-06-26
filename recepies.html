@@ -1,82 +1,87 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-<title>Page Title</title>
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<div className=" Navbar">
+  <head>
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
     <div>
-        <p> Header Logo</p>
-        <p>Header link one </p>
+      <div class="navbar">
+        <p id="logo">Header Logo</p>
+        <p>Header link one</p>
         <p>Header link two</p>
         <p>Header link three</p>
+      </div>
     </div>
-</div>
 
-<div className="Homepage">
-    <div className="first-subsection">
-        <h1>
-            This website is awesome
-        </h1>
-        <p>
-            This website has some subtext that goes here under the <br/>
-            main title. Its a smaller font and the color is lower<br/>
+    <div class="Homepage">
+      <div class="first-subsection">
+        <div class="first-subsection-text">
+          <h1>This website is awesome</h1>
+          <p>
+            This website has some subtext that goes here under the <br />
+            main title. Its a smaller font and the color is lower<br />
             contrast
-        </p>
-        <button>
-            Sign up
-        </button>
-    </div>
-    <div className="image-palceholder">
-        <img src="" alt=""/>
-    </div>
-    <div className="second-subsection">
-        <h2>
-            Some random information
-        </h2>
+          </p>
+          <button class="signup-button">Sign up</button>
+        </div>
+        <div class="image-placeholder">
+          <img
+            src="https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg"
+            alt="placeholder"
+            width="400px"
+            height="200px"
+          />
+        </div>
+      </div>
+
+      <div class="second-subsection">
+        <h2 class="subsection-two-header">Some random information</h2>
         <div>
-            <div clasName="random-boxes">
-                <img src="" alt="">
-                <p>this is some subtext under an illustration or image</p>
+          <div class="box-collection">
+            <div class="box-plus-description">
+              <div class="box"></div>
+              <p>this is some subtext under an illustration or image</p>
             </div>
-              <div clasName="random-boxes">
-                <img src="" alt="">
-                <p>this is some subtext under an illustration or image</p>
+            <div class="box-plus-description">
+              <div class="box"></div>
+              <p>this is some subtext under an illustration or image</p>
             </div>
-              <div clasName="random-boxes">
-                <img src="" alt="">
-                <p>this is some subtext under an illustration or image</p>
+            <div class="box-plus-description">
+              <div class="box"></div>
+              <p>this is some subtext under an illustration or image</p>
             </div>
-              <div clasName="random-boxes">
-                <img src="" alt="">
-                <p>this is some subtext under an illustration or image</p>
+            <div class="box-plus-description">
+              <div class="box"></div>
+              <p>this is some subtext under an illustration or image</p>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    <div className="third-subsection">
-        <p>
-            This is an inspiring quote, or a testimonial from a customer. Maybe it's just filing up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
-
-        </p>
-        <strong>
-            -Thor, God of Thunder
-        </strong>
+    <div class="third-subsection">
+      <p>
+        This is an inspiring quote, or a testimonial from a customer. Maybe it's
+        just filing up space, or maybe people will actually read it. Who knows?
+        All I know is that it looks nice.
+      </p>
+      <p class="thor">
+        <strong> -Thor, God of Thunder </strong>
+      </p>
     </div>
-    <div className="fourth-subsection">
-        <div className="call-to-action">
-            <p><strong>Call to action!It's time!</strong></p>
-            <p>Sign up for our product by clicking that button right over there!</p>
+    <div class="fourth-subsection">
+      <div class="call-to-action">
+        <div class="call-to-action-text">
+          <p><strong>Call to action!It's time!</strong></p>
+          <p>
+            Sign up for our product by clicking that button right over there!
+          </p>
         </div>
-        <button>
-            Sign up
-        </button>
+        <button class="call-to-action-button">Sign up</button>
+      </div>
     </div>
-</div>
-<div className="footer">
-    <p>Copyrigth © The Odin Project 2021</p>
-</div>
-
-</body>
+    <div class="footer">
+      <p>Copyrigth © The Odin Project 2021</p>
+    </div>
+  </body>
 </html>
