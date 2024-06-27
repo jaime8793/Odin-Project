@@ -3,38 +3,48 @@
   padding: 0;
   border: 0;
   border-sizing: border-box;
-  
 }
 
-body{
-    /*background-color: #E5E7EB;*/
+body {
+  /*background-color: #E5E7EB;*/
+}
+
+.navbar-container {
+  background-color: #1f2937;
 }
 
 .navbar {
   display: flex;
 
-  border: 2px solid black;
-  justify-content: flex-end;
-  background-color: #1f2937;
+  /*border: 2px solid black;*/
+  justify-content: space-between;
+  /*background-color: #1f2937;*/
   color: #f9faf8;
   font-weight: 24px;
   height: 10vh;
+  width: 80%;
+  margin: 0 auto;
+}
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.first-subsection-container {
+  background-color: #1f2939;
+  display: flex;
+  justify-content: center;
 }
 
 .first-subsection {
-  background-color: #1f2937;
+  width: 80%;
   color: white;
   display: flex;
   justify-content: space-between;
 }
 
-.first-subsection-text {
-  margin: auto;
-}
-
-.image-placeholder {
-  margin: auto;
-  display: block;
+.first-subsection-text{
+  margin: 20px 0;
 }
 
 .signup-button {
@@ -43,12 +53,18 @@ body{
   height: 32px;
   border-radius: 8px;
   width: 100px;
-  margin: auto;
+  margin: 20px auto;
   color: #f9faf8;
 }
 
 .second-subsection {
   border: 2px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.second-subsection-container {
+  width: 80%;
 }
 
 .subsection-two-header {
@@ -58,7 +74,7 @@ body{
 
 .box-collection {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .box {
@@ -70,26 +86,35 @@ body{
 
 .box-plus-description {
   width: 110px;
+  text-align: center;
 }
 
+.third-subsection-back {
+  background-color: #e5e7eb;
+  height: 400px;
+  display: flex;
+}
 .third-subsection {
   width: 50%;
   /*text-align: center;*/
-  margin: 100px auto;
-  
-
+  /*margin: 100px auto;*/
+  margin: auto;
+  font-size: 36px;
+  font-style: italic;
 }
 
 .thor {
   text-align: right;
   margin: 10px;
+  font-style: normal;
+  
 }
 
 .fourth-subsection {
   /*border: 1px solid black;*/
   height: 25vh;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   background-color: white;
 }
@@ -122,8 +147,16 @@ body{
   color: #f9faf8;
 }
 
+.footer-container {
+  background-color: #1f2937;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer {
-  text-align: center;
-  margin: 40px;
-  /*background-color: #1f2937;*/
+  background-color: #1f2937;
+  color: white;
+  
 }
